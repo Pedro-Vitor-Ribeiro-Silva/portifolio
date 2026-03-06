@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Vitor | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="container d-flex">
+            <h1 class="logo">Pedro<span>Vitor</span></h1>
+
+            <nav id="menu" class="menu">
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#certificados">Certificados</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button id="btn-tema" class="btn-icone" aria-label="Alternar Tema">
+                    <i class="ph ph-moon" id="icone-tema"></i>
+                </button>
+                <button id="btn-menu" class="btn-menu">☰ Menu</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="introducao">
+        <div class="container">
+            <h2>A tecnologia como solução para problemas reais.</h2>
+            <p>Olá, sou Pedro Vitor Ribeiro Silva! Estudante de Análise e Desenvolvimento de Sistemas no SENAI e desenvolvedor apaixonado por inovação.</p>
+            <div class="botoes">
+                <a href="#projetos" class="btn">Meus Trabalhos</a>
+                <a href="https://github.com/Pedro-Vitor-Ribeiro-Silva" target="_blank" class="btn btn-secundario">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre grey-bg">
+        <div class="container d-flex">
+            <div class="texto-sobre">
+                <h2 class="titulo-secao">Quem sou eu?</h2>
+                <p>Meu nome é Pedro Vitor Ribeiro Silva, sou estudante de Análise e Desenvolvimento de Sistemas no SENAI e apaixonado por tecnologia. Desde cedo desenvolvi uma forte curiosidade sobre como os sistemas funcionam e como a tecnologia pode ser utilizada para resolver problemas reais.</p>
+                <p>Sou uma pessoa proativa, organizada e com pensamento lógico rápido, características que me ajudam a aprender novas tecnologias e enfrentar desafios técnicos com eficiência. Tenho facilidade para trabalhar em equipe, comunicar ideias com clareza e buscar soluções práticas para problemas.</p>
+                <p>Além da área técnica, também participo ativamente de atividades voluntárias na igreja Nossa Igreja em Cristo, o que contribui para o desenvolvimento de habilidades como liderança, responsabilidade, colaboração e serviço ao próximo.</p>
+                <p>Meu objetivo é crescer profissionalmente, contribuindo para projetos inovadores, evoluindo constantemente como desenvolvedor e utilizando a tecnologia para gerar impacto positivo.</p>
+            </div>
+
+            <div class="habilidades">
+                <h2 class="titulo-secao">O que eu faço:</h2>
+                <ul class="lista-habilidades">
+                    <li>Java & Spring Boot</li>
+                    <li>Python & Flask</li>
+                    <li>JavaScript, TypeScript & React</li>
+                    <li>Banco de Dados</li>
+                    <li>Desenvolvimento Full Stack</li>
+                    <li>Hardware & Infraestrutura</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <div class="container">
+            <h2 class="titulo-secao centralizado">Meus Projetos Recentes</h2>
+            <p class="subtitulo centralizado">Aqui estão alguns projetos que desenvolvi e estão hospedados.</p>
+
+            <div class="grade-projetos">
+                <div class="cartao">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=500&q=80"
+                        alt="Login Ponto e Vírgula">
+                    <div class="conteudo">
+                        <h3>Ponto e Vírgula</h3>
+                        <p>Uma tela de login bonita com foco na usabilidade correta dos botões e campos de texto.</p>
+                        <a href="https://pontoevirgula.vercel.app" target="_blank" class="btn btn-pequeno">Visitar
+                            Site</a>
+                    </div>
+                </div>
+
+                <div class="cartao">
+                    <img src="https://images.unsplash.com/photo-1527977966376-1c8408f9f108?auto=format&fit=crop&w=500&q=80"
+                        alt="LP Drone">
+                    <div class="conteudo">
+                        <h3>LP Drone</h3>
+                        <p>Página de vendas focada em conversão para um produto tecnológico (drones).</p>
+                        <a href="https://lpdrone.vercel.app/" target="_blank" class="btn btn-pequeno">Visitar Site</a>
+                    </div>
+                </div>
+
+                <div class="cartao">
+                    <img src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=500&q=80"
+                        alt="Bible Explorer">
+                    <div class="conteudo">
+                        <h3>Bible Explorer</h3>
+                        <p>Plataforma para leitura de textos bíblicos, com navegação fácil por capítulos.</p>
+                        <a href="https://bibleexplorer.vercel.app/" target="_blank" class="btn btn-pequeno">Visitar
+                            Site</a>
+                    </div>
+                </div>
+
+                <div class="cartao">
+                    <img src="https://images.unsplash.com/photo-1550439062-609e1531270e?auto=format&fit=crop&w=500&q=80"
+                        alt="Encurtador de Links">
+                    <div class="conteudo">
+                        <h3>ShortPV</h3>
+                        <p>Um encurtador de URLs rápido para facilitar o compartilhamento de links longos.</p>
+                        <a href="https://shortpv.vercel.app/" target="_blank" class="btn btn-pequeno">Visitar Site</a>
+                    </div>
+                </div>
+
+                <div class="cartao">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=500&q=80"
+                        alt="ProgLang">
+                    <div class="conteudo">
+                        <h3>ProgLang</h3>
+                        <p>Site com informações legais sobre várias linguagens de programação usadas no mercado.</p>
+                        <a href="https://proglang.vercel.app/" target="_blank" class="btn btn-pequeno">Visitar Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificados" class="certificados grey-bg">
+        <div class="container">
+            <h2 class="titulo-secao centralizado">Meus Certificados de Estudo</h2>
+
+            <div class="grade-certificados">
+                <a href="assets/Certificado_Competência Transversal - Segurança no Trabalh.pdf" target="_blank"
+                    class="box-certificado">
+                    <strong>1.</strong> Segurança no Trabalho
+                </a>
+                <a href="assets/Certificado_Desvendando a Indústria 4..pdf" target="_blank" class="box-certificado">
+                    <strong>2.</strong> Indústria 4.0
+                </a>
+                <a href="assets/Certificado_Desvendando o 5.pdf" target="_blank" class="box-certificado">
+                    <strong>3.</strong> Desvendando o 5G
+                </a>
+                <a href="assets/Certificado_Desvendando o ES.pdf" target="_blank" class="box-certificado">
+                    <strong>4.</strong> ESG Estratégico
+                </a>
+                <a href="assets/Certificado_Economia Circula.pdf" target="_blank" class="box-certificado">
+                    <strong>5.</strong> Economia Circular
+                </a>
+                <a href="assets/Certificado_Empreender SENA.pdf" target="_blank" class="box-certificado">
+                    <strong>6.</strong> Empreendedorismo
+                </a>
+                <a href="assets/Certificado_Excel Complet.pdf" target="_blank" class="box-certificado">
+                    <strong>7.</strong> Excel Completo
+                </a>
+                <a href="assets/Certificado_FLUÊNCIA - FUNDAMENTOS DA INTELIGÊNCIA ARTIFICIA.pdf" target="_blank"
+                    class="box-certificado">
+                    <strong>8.</strong> Inteligência Artificial
+                </a>
+                <a href="assets/Certificado_Microsoft Power BI.pdf" target="_blank" class="box-certificado">
+                    <strong>9.</strong> Microsoft Power BI
+                </a>
+                <a href="assets/Certificado_Privacidade e Proteção de Dados (LGPD.pdf" target="_blank"
+                    class="box-certificado">
+                    <strong>10.</strong> Privacidade e LGPD
+                </a>
+                <a href="assets/Certificado_WEB 3..pdf" target="_blank" class="box-certificado">
+                    <strong>11.</strong> Web 3.0 e Futuro
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato" class="rodape">
+        <div class="container">
+            <h2>Gostou do que viu?</h2>
+            <p>Se você precisa de um site desse tipo, me mande uma mensagem e vamos conversar!</p>
+            <a href="mailto:pedrovitorrbeirosilva@gmail.com" class="btn">Enviar E-mail Agora</a>
+
+            <div class="linha"></div>
+
+            <p class="direitos">Feito por Pedro Vitor. © 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
